@@ -14,21 +14,14 @@ setup(
     name='dmind',
     version=__version__,
     packages=find_packages(),
-    description='A sample Python project',
+    description='a mindmap tool for jupyter notebook',
     long_description=long_description,
     long_description_content_type='text/markdown',
     url='https://github.com/dust8/dmind',
     author='dust8',
     include_package_data=True,
     classifiers=[
-        '5 - Production/Stable', 'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3', 'Framework :: IPython'
     ],
-    keywords='dmind mind mindmap',
-    project_urls={  # Optional
-        'Bug Reports': 'https://github.com/dust8/dmind',
-        'Funding': '',
-        'Say Thanks!': '',
-        'Source': 'https://github.com/dust8/dmind',
-    },
-)
+    keywords='dmind mind mindmap')
