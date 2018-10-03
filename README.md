@@ -1,7 +1,6 @@
 
 # DMind
 
-    是一个思维导图插件
 `DMind` 是一个 `Jupyter notebook` 的思维导图插件.    
 利用百度脑图的开源库实现渲染, 支持 `json`, `markdown`, `text` 格式.
 
