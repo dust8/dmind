@@ -20,8 +20,15 @@ setup(
     url='https://github.com/dust8/dmind',
     author='dust8',
     include_package_data=True,
+    zip_safe=False,
     classifiers=[
+        'Development Status :: 5 - Production/Stable',
+        'Intended Audience :: Developers',
         'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3', 'Framework :: IPython'
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7', 'Framework :: IPython'
     ],
     keywords='dmind mind mindmap')

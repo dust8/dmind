@@ -1,18 +1,21 @@
 import hashlib
 import json
+from os import path
 
 import pkg_resources
 from IPython.core.magic import (Magics, cell_magic, line_cell_magic,
                                 line_magic, magics_class)
 
+here = path.abspath(path.dirname(__file__))
+
 STRING_KITY = pkg_resources.resource_string(__name__,
-                                            "./static/kity.min.js").decode()
+                                            "static/kity.min.js").decode()
 STRING_KITYMINDER_JS = pkg_resources.resource_string(
-    __name__, "./static/kityminder.core.min.js").decode()
+    __name__, "static/kityminder.core.min.js").decode()
 STRING_KITYMINDER_CSS = pkg_resources.resource_string(
-    __name__, "./static/kityminder.core.css").decode()
+    __name__, "static/kityminder.core.css").decode()
 STRING_RENDER = pkg_resources.resource_string(__name__,
-                                              './static/render.js').decode()
+                                              'static/render.js').decode()
 
 DATATYPE = ['json', 'text', 'markdown']
 TEMPLATE = {

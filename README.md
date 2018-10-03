@@ -1,16 +1,15 @@
 
-# DXind
+# DMind
 
-`DXind` 是一个 `Jupyter notebook` 的脑图插件.    
+    是一个思维导图插件
+`DMind` 是一个 `Jupyter notebook` 的思维导图插件.    
 利用百度脑图的开源库实现渲染, 支持 `json`, `markdown`, `text` 格式.
-
-
 
 
 ## 安装
 通过 `pip` 安装
 ```bash
-    pip install dxind
+    pip install dmind
 ```
 
 ## 使用
