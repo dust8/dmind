@@ -12,6 +12,16 @@
 ```
 
 ## 使用
+### 引入插件相关
+载入 dmind 插件
+```
+%load_ext dmind
+```
+载入 dmind 需要的附件
+```
+%dmindheader
+```
+
 ### text 格式
 ```
 %%dmind text
